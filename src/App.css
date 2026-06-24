@@ -113,7 +113,7 @@ body {
 .drop-zone.has-preview { border-style: solid; cursor: default; }
 
 .drop-prompt { text-align: center; padding: 40px; }
-.drop-title { font-size: 1.6rem; font-weight: 900; margin: 20px 0 10px; color: var(--yellow); }
+.drop-title { font-family: 'Press Start 2P', monospace; font-size: 1rem; line-height: 1.6; margin: 20px 0 10px; color: var(--yellow); }
 .drop-sub { font-size: 0.95rem; color: #8899aa; }
 
 /* ── Large Pokeball ── */
@@ -244,7 +244,7 @@ body {
 }
 .feature-card:hover { transform: translateY(-4px); }
 .feature-icon { font-size: 2rem; margin-bottom: 10px; }
-.feature-card h3 { font-size: 0.95rem; font-weight: 800; margin-bottom: 6px; color: var(--yellow); }
+.feature-card h3 { font-family: 'Press Start 2P', monospace; font-size: 0.6rem; line-height: 1.7; margin-bottom: 10px; color: var(--yellow); }
 .feature-card p { font-size: 0.82rem; color: #8899aa; line-height: 1.5; }
 
 /* ── Result ── */
