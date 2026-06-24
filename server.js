@@ -215,5 +215,6 @@ if (existsSync(distPath)) {
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n🎮 The Trainer's Deck server running at http://localhost:${PORT}`);
+  console.log(`🔑 ANTHROPIC_API_KEY: ${process.env.ANTHROPIC_API_KEY ? 'SET ✅' : 'MISSING ❌'}`);
   if (!existsSync(distPath)) console.log('📡 Frontend dev server should be at http://localhost:5173\n');
 });
