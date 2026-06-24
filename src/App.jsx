@@ -99,10 +99,10 @@ export default function App() {
 
             {error && (
               <div className="error-panel">
-                <span className="error-icon">⚠️</span>
+                <span className="error-icon">🌿</span>
                 <div>
-                  <strong>Something went wrong</strong>
-                  <p>{error}</p>
+                  <strong>Sorry, this Pokémon couldn't be identified.</strong>
+                  <p>Ask Professor Oak or try a different card.</p>
                 </div>
               </div>
             )}
